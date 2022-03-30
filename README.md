@@ -12,5 +12,6 @@ Build a simple todo app with...
 1. Solid
 1. Stencil
 1. Mithril
+1. Ember
 
 Watch the full [JS framework comparison](https://youtu.be/cuHDQhDhvPE) on YouTube
