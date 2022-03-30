@@ -1,0 +1,12 @@
+<div>
+    <ul>
+        {{#each this.todos as |todo|}}
+            <li>{{todo}}</li>
+        {{/each}}
+    </ul>
+
+    <form {{on 'submit' this.addTodo}}>
+        <Input type="text" placeholder="What needs to be done?" @value={{this.todoText}} />
+        <button type="submit">Add Todo</button>
+    </form>
+</div>
